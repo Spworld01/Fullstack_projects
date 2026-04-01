@@ -1,0 +1,60 @@
+* {
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    body {
+        color: white;
+    }
+    .navbar {
+        background-color: rgba(0, 0, 0, 0.679);
+        display: flex;
+        justify-content: space-between;
+    }
+    .navbar h1 {
+        padding: 5px 15px;
+    }
+    .nav a {
+        text-decoration: none;
+        color: white;
+        padding: 30px 8px;
+    }
+    .content{
+        background-color:#f4f4f4;;
+        height: 400px;
+        width: 800;
+        align-items: center;
+        color: black;
+        text-align: center;
+        padding-top: 250px;
+    }
+    .about {
+        color: black;
+        padding-top:30px;
+    }
+    .about p {
+        padding: 10px;
+    }
+    .MY_projects {
+        color: black;
+    }
+    .project__ {
+        display: flex;
+        justify-content: space-around;
+    }
+   .project {
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+   }
+   .contact {
+    padding-top:50px;
+    color: black;
+   }
+   footer {
+    background-color: rgba(0, 0, 0, 0.679);
+    color: white;
+    text-align: center;
+   }
